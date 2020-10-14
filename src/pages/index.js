@@ -14,7 +14,7 @@ const IndexPage = () => (
     <div >
       <img src = "https://i1.wp.com/dudeplace.co/wp-content/uploads/2020/10/nct-dream-ot71.jpeg?resize=2048%2C1380&ssl=1" />
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
+    <Link to="/page-2/">Go to Profile page</Link> <br />
   </Layout>
 )
 
