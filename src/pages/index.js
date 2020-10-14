@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <center><h1>Hello NCTzen</h1></center>
-    <p>Welcome to NEO CULTURE TECHNOLOGY 2020.</p>
+    <h2>Welcome to NEO CULTURE TECHNOLOGY 2020.</h2>
     <p>NCT in the house.</p>
     <div>
       <img src = "https://i1.wp.com/dudeplace.co/wp-content/uploads/2020/10/nct-dream-ot71.jpeg?resize=1024%2C690&ssl=1"/>
