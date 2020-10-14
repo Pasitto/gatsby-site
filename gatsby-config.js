@@ -31,5 +31,18 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-source-airtable",
+      options: {
+        apiKey: "key8dhqOVB7KjnQ6o",
+        tables: [
+          {
+            baseId: "appkZZAR1N76iVsVf",
+            tableName: "Idols",
+          },
+        ]
+      }
+    },
+
   ],
 }
