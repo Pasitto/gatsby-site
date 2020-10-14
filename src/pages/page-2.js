@@ -11,26 +11,28 @@ export default ({data}) => {
   return (
     <Layout>
       <SEO title="Page two" />
-      <h1>Hi from the second page</h1>
-      <p>Welcome to page 2</p>
+      <h1>NCT DREAM'S MEMBERS</h1>
+      <p>NCT Dream (엔씨티 Dream) is the 3rd sub-unit of the boy group NCT. The sub-unit consists of the members:  Mark, Renjun, Jeno, Haechan, Chenle, Jisung, Jaemin and is a rotational group, meaning that for each comeback/release the lineup can consist of a different arrangement of the 7 members. From 2016 til early 2020 the group used to have a graduation system, where members who reached the Korean age of 20 would graduate and leave the group. NCT Dream debuted on August 24, 2016 under SM Entertainment.</p>
+      
       <div>
       {
         allAirtableData.map((node) => (
-          <div>
-            <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+          <center>
+            <div style={{ maxWidth: `50%`, marginBottom: `1.45rem` }}>
               <img src = {node.data.Picture}/> 
             </div>
-              <h1>{node.data.Stage_name}</h1>
-              <h2>{node.data.Birth_name}</h2>
+              <h1>Stage Name: {node.data.Stage_name}</h1>
+              <h2>Birth Name: {node.data.Birth_name}</h2>
               <div>
-                <p>{node.data.Birthday}</p>
-                <p>{node.data.Nationality}</p>
-                <p>{node.data.Position}</p>
+                <p>Birthday: {node.data.Birthday}</p>
+                <p>Nationality: {node.data.Nationality}</p>
+                <p>Position: {node.data.Position}</p>
               </div>
-          </div>
+          </center>
         ))
       }
       </div>  
+      
       <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
