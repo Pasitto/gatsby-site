@@ -1,5 +1,5 @@
 backend:
-  name: gatsby-site
+  name: github
   repo: Pasitto/gatsby-site
 
 media_folder: static/assets
